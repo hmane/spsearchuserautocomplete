@@ -44,21 +44,33 @@ My site url. User will redirect to profile page url. default: ""
 e.g.  http://PROFILE_URL/person.aspx?accountname=NETWOR_ID 
 
 **redirectToProfilePage** : 
-    If true then user will be redirected to profile page url on selection. default: false
+    If true then user will be redirected to profile page url on selection. _default: **false_**
 
 **maxSuggetions** : 
-    Max suggetions. default 10.
+    Max suggetions. _default **10**_
 
 **showpicture** : 
-    default: true
+    _default: **true**_
 
 **principalType** : 
-    Principal type to search. default: 0
-    options: 
-        0 - [User, DL, SecGroup, SPGroup]
-        1 - [User]
-        2 - [DL]
-        4 - [SecGroup]
-        8 - [SPGroup]
+    Principal type to search. _default: **0**_
+
+* 0 - [User, DL, SecGroup, SPGroup]
+* 1 - [User]
+* 2 - [DL]
+* 4 - [SecGroup]
+* 8 - [SPGroup]
+
+**Without user picture:**
+
+![Without user picture](https://www.codeplex.com/Download?ProjectName=spsearchuserautocomplete&DownloadId=868511)
+
+![Without user picture](https://www.codeplex.com/Download?ProjectName=spsearchuserautocomplete&DownloadId=868512)
+
+**With user picture:**
+
+![With user picture](https://www.codeplex.com/Download?ProjectName=spsearchuserautocomplete&DownloadId=876970)
+
+![With user picture](https://www.codeplex.com/Download?ProjectName=spsearchuserautocomplete&DownloadId=876971)
 
 jQuery search people also uses [imgPreload plugin](http://denysonique.github.io/imgPreload/) to show spinner before loading the user picture.
