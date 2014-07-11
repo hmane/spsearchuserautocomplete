@@ -3,7 +3,7 @@ Project Description
 
 Search user/group with presence from search input box in SharePoint 2013. 
 
-Features:
+Features
 --------------------------------------
 
 Update SharePoint 2013 search input box to search people with the presence
